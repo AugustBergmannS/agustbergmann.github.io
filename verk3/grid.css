@@ -62,6 +62,26 @@
     background:rgb(177, 116, 36);    
     padding: 2em;
 }
+.fotur2{
+    grid-area: fotur;
+    background:rgb(177, 116, 36);    
+    padding: 2em;
+}
+.fotur3{
+    grid-area: fotur;
+    background:rgb(177, 116, 36);    
+    padding: 2em;
+}
+.fotur4{
+    grid-area: fotur;
+    background:rgb(177, 116, 36);    
+    padding: 2em;
+}
+.fotur5{
+    grid-area: fotur;
+    background:rgb(177, 116, 36);    
+    padding: 2em;
+}
 .midja{
     grid-area: midja;
     background: rgb(250, 205, 147);    
@@ -120,7 +140,7 @@ section nav, header, footer{
     "hlekkur1 hlekkur2 hlekkur3 hlekkur4 hlekkur5"
     "haus haus haus haus haus"
     "midja midja midja vinstri haegri"
-    "fotur fotur fotur fotur fotur";
+    "fotur fotur2 fotur3 fotur4 fotur5";
 }
 .stafir{
     font-family: 'Luckiest Guy', cursive;
