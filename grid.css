@@ -1,0 +1,148 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.div{
+    border: solid 2px;
+    padding: 10px
+}
+.arial{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.courier{
+    font-family: 'Courier New', Courier, monospace;
+}
+.text1{
+    font-size: 1em;
+}
+.georgia{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.trebuchet{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.palatino{
+    font-family: "palatino linotype";
+}
+.arialb{
+    font-family: "arial black";
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.texti{
+    font-size: 0.7em;
+    line-height: 1.6em;
+}
+.impact{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: blanchedalmond;
+    font-size: 5em;
+    text-align: center;
+}
+.texti2{
+    color: darkred;
+}
+.texti3{
+    color: darkred;
+    font-style: italic;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "haus haus haus haus haus"
+    "hlekkur1 hlekkur2 hlekkur3 hlekkur4 hlekkur5"
+    "vinstri midja midja midja haegri"
+    "fotur fotur fotur fotur fotur";
+}
+.fotur{
+    grid-area: fotur;
+    background:rgb(177, 116, 36);    
+    padding: 2em;
+}
+.midja{
+    grid-area: midja;
+    background: rgb(250, 205, 147);    
+    padding: 2em;
+}
+.vinstri{
+    grid-area: vinstri;
+    background: rgb(252, 199, 129);    
+    padding: 2em;
+}
+.haegri{
+    grid-area: haegri;
+    background:rgb(252, 199, 129);    
+    padding: 2em;
+}
+.h{
+    grid-area: haus;
+    background: rgba(235, 150, 23, 0.918);
+    font-family: anton;
+}
+.h1{
+    grid-area: hlekkur1;
+    background: rgb(177, 116, 36);
+    padding: 1em;
+}
+.h2{
+    grid-area: hlekkur2;
+    background:rgb(177, 116, 36);
+    padding: 1em;
+}
+.h3{
+    grid-area: hlekkur3;
+    background:rgb(177, 116, 36);
+    padding: 1em;
+}
+.h4{
+    grid-area: hlekkur4;
+    background:rgb(177, 116, 36);
+    padding: 1em;
+}
+.h5{
+    grid-area: hlekkur5;
+    background:rgb(177, 116, 36);
+    padding: 1em;
+}
+nav, footer{
+    color:rgb(189, 185, 185)
+}
+section nav, header, footer{
+    text-align: center;
+}
+.wrapper2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "hlekkur1 hlekkur2 hlekkur3 hlekkur4 hlekkur5"
+    "haus haus haus haus haus"
+    "midja midja midja vinstri haegri"
+    "fotur fotur fotur fotur fotur";
+}
+.stafir{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 4em;
+}
+.stafir1{
+    font-family: 'Handlee', cursive;
+    font-size: 1em;
+}
+.stafir2{
+    font-family: 'BenchNine', sans-serif;
+    font-size: 1em;
+}
+.color{
+    background-color: #b33c00;
+}
+.color2{
+    background-color: #990000;
+}
+.color3{
+    background-color: #ff9999;
+}
+.color4{
+    background-color: #ff8080;
+}
