@@ -1,0 +1,125 @@
+.head{
+    display: grid;
+    grid-auto-flow: column;
+    padding: 1em;
+    color: white;
+    text-transform: uppercase;
+}
+
+.title {}
+
+.head div{
+    max-width: 60%;
+    margin: auto;
+}
+
+.head a{
+    color: white;
+}
+
+.nav{
+    text-align: right;
+}
+
+.color{
+    background-color: rgb(72, 72, 214);
+}
+
+.midja{
+    background: linear-gradient(rgb(241, 239, 210),rgb(230, 211, 108));
+    text-align: center;
+    padding: 2em;
+}
+
+.midja blockquote{
+    background-color: #ffffff94;
+    padding: 1em;
+}
+
+.texti a{
+    color: gray;
+}
+
+.texti a:hover{
+    color: lightgray;
+}
+
+.texti{
+    text-align: left;
+    background: linear-gradient(rgb(241, 239, 210),rgb(230, 211, 108));
+    padding: 20px;
+}
+
+.midja h1{
+    color: dodgerblue;
+}
+
+.texti h3 {
+    color: dodgerblue;
+}
+
+.text{
+    margin-top: 2em;
+    background: rgb(56, 110, 255);
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+}
+
+.text a{
+    color: white;
+    padding: 0.1em;
+}
+
+a:hover{
+    color: lightgray;
+}
+
+.texti2{
+    display: grid;
+}
+
+.texti2 h1{
+    color: blue;
+}
+
+.pila{
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    
+    color: blue;
+    padding: 10px;
+    
+    border-radius: 50%;
+    background: white;
+}
+
+.fotur{
+    color: white;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.fotur nav{
+    max-width: 60%;
+    margin: auto;
+    color: white;
+}
+
+.fotur dt{
+    color: white;
+}
+
+.fotur a{
+    color: white;
+}
+
+.copyright {
+    background: black;
+    margin: auto;
+    padding: 1em;
+    padding-right: 10%;
+    color: white;
+    text-align: right;
+}
