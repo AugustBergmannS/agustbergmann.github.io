@@ -1,5 +1,4 @@
-# agustbergmann.github.io
-
+# https://github.com/AugustBergmannS
 [Verk3.1.](/verk3/Verk1_Web3.html)
 [Verk3.2.](/verk3/Verk2_Web3.html)
 [Verk3.3.](/verk3/Verk3_Web3.html)
