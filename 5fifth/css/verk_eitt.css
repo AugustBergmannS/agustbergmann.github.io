@@ -1,0 +1,91 @@
+.haus{
+    display: grid;
+    grid-auto-flow: column;
+    background: rgb(63, 63, 143);
+}
+.litur{
+    background: rgb(113, 164, 180);
+}
+.texti{
+    color: white;
+    font-family: Comic Sans MS;
+    padding: 25px;
+}
+.texti h3{
+    font-size: 24px;
+}
+.texti div{
+    font-size: 14px;
+    padding-top: 10px;
+}
+.text img{
+    display: grid;
+    grid-auto-flow: row;
+    max-width: 100%;
+    padding-top: 10px;
+}
+.text video{
+    display: grid;
+    grid-auto-flow: row;
+    width: 264px;
+    height: 148px;
+    padding-top: 10px; 
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+}
+.text audio{
+    display: grid;
+    grid-auto-flow: row;
+    width: 300px;
+    height: 54px;
+    padding-top: 10px;
+}
+.text iframe{
+    display: grid;
+    grid-auto-flow: row;
+    padding-top: 10px;
+}
+.text a{
+    color: white;
+}
+.text div, h3{   
+    color: white;
+    font-family: Comic Sans MS;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin: 25px;
+    padding-top: 5px; 
+}
+.fotur{
+    background: rgb(63, 63, 143);
+    color: white;
+    display: grid;
+    font-family: Comic Sans MS;
+    grid-auto-flow: column;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.fotur nav{
+    max-width: 60%;
+    margin: auto;
+    color: white;
+}
+.fotur dt{
+    color: white;
+}
+.fotur a{
+    color: white;
+}
+.copyright {
+    background: black;
+    margin: auto;
+    padding: 1em;
+    padding-right: 10%;
+    color: white;
+    text-align: right;
+}
+a:hover{
+    color: lightgray;
+}
